@@ -5,8 +5,10 @@
 
 #### Key Areas to Focus On:
 - **Data Structures:** Arrays, Linked Lists, Stacks, Queues, Hash Maps, Trees, Graphs, Heaps.
+  - Key Data Structures to focus on: Lists, Sets, Maps/Dictionaries, Stacks, Graphs
 - **Algorithms:** Sorting (QuickSort, MergeSort), Searching (Binary Search), Recursion, Dynamic Programming, Greedy Algorithms, Backtracking.
 - **Practice:** Solve problems on platforms like LeetCode, HackerRank, or Codewars.
+  - Codewars usually has smaller, more managable problems
 
 ---
 
@@ -22,7 +24,7 @@
 
 ---
 
-### **4. Debugging and Optimization**
+### **3. Debugging and Optimization**
 - **Debugging:**
   - Use print statements or logging effectively.
   - Familiarize yourself with IDE/debugger tools like IntelliJ or Visual Studio Code.
@@ -32,7 +34,7 @@
 
 ---
 
-### **5. Behavioral and Soft Skills**
+### **4. Behavioral and Soft Skills**
 - **STAR Method for Behavioral Questions:**
   - **S**ituation: Describe the context.
   - **T**ask: Explain the goal.

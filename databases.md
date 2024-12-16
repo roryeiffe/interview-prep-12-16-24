@@ -18,6 +18,8 @@ Relational databases store data in structured tables with predefined schemas. Ea
      - Example: `SELECT orders.id, customers.name FROM orders JOIN customers ON orders.customer_id = customers.id;`
    - `GROUP BY` and `HAVING`: Aggregate and filter grouped data.
      - Example: `SELECT department, AVG(salary) FROM employees GROUP BY department HAVING AVG(salary) > 50000;`
+     - Aggregate functions - take in a group of data and return a single value (avg, max, min)
+     - Scalar functions - take in a single value and return a single value (lower, upper)
 2. **Data Manipulation:**
    - `INSERT`: Add new records.
      - Example: `INSERT INTO users (name, email) VALUES ('John', 'john@example.com');`
@@ -37,6 +39,8 @@ Relational databases store data in structured tables with predefined schemas. Ea
        ```
    - `ALTER TABLE`: Modify an existing table.
      - Example: `ALTER TABLE users ADD COLUMN phone VARCHAR(15);`
+  - `DROP TABLE`: completely remove an existing table
+  - `Truncate`: wipe a table of its contents but leave the table in-tact
 4. **Indexing:**
    - Improve query performance by creating indexes.
      - Example: `CREATE INDEX idx_name ON users (name);`
@@ -139,3 +143,7 @@ NoSQL databases are designed for flexible schemas, scalability, and unstructured
    - NoSQL:
      - "Design a schema for a blogging platform using MongoDB."
      - "Explain how you would scale a Cassandra cluster for high write throughput.
+
+
+- [Sample SQL Commands](https://www.codecademy.com/article/sql-commands)
+- identify 2 or 3 types of NoSQL databases and comparing/contrasting 
